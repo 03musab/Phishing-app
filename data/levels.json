@@ -1,0 +1,34 @@
+[
+    {
+      "level": 1,
+      "title": "Email Phishing",
+      "scenarios": [
+        {
+          "type": "email",
+          "content": "Dear user, your account has been compromised. Click here to secure it.",
+          "isPhishing": true
+        },
+        {
+          "type": "email",
+          "content": "Your monthly bank statement is ready. Download it from your account.",
+          "isPhishing": false
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "SMS Phishing",
+      "scenarios": [
+        {
+          "type": "sms",
+          "content": "You have won a prize! Click here to claim it.",
+          "isPhishing": true
+        },
+        {
+          "type": "sms",
+          "content": "Your OTP for login is 123456.",
+          "isPhishing": false
+        }
+      ]
+    }
+  ]
